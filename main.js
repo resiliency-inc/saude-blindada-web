@@ -1,3 +1,5 @@
+import { API_URL } from "./variables.mjs";
+
 const button = document.querySelector('#enviar');
 
 button.onclick = async function () {
@@ -7,7 +9,7 @@ button.onclick = async function () {
 
     if (form.checkValidity()) {
         try {
-            const res = await fetch('http://localhost:3001/clients/create', {
+            const res = await fetch(`${window.atob(API_URL)}clients/create`, {
                 method: 'post',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, phone })

@@ -1,9 +1,15 @@
 .video {
   width: 70%;
+  border: none;
 }
 
 .card-body {
     padding: .8rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  color: #007bff!important;
 }
 
 .button {
