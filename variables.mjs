@@ -1,1 +1,0 @@
-export const API_URL = "aHR0cHM6Ly9zYXVkZS1ibGluZGFkYS1hcGkuaGVyb2t1YXBwLmNvbS8=";
